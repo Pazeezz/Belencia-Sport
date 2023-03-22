@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "poppins";
+    
+    
+}
+/* navbar styling */
+
+.nav-area ul{
+    display: flex;
+    padding-top: 20px;
+    float: right;
+}
+.nav-area ul li{
+    list-style: none;
+    position: relative;
+    display:inline-block;
+    margin: 0 20px;
+}
+.nav-area ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+.nav-area ul li a:hover{
+    opacity: 1;
+}
+
+.nav-area ul li::after{
+    content: '';
+    height: 2px;
+    width: 0;
+    background: #F96C18;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+.nav-area ul li:hover::after{
+    width: 100%;
+}
+
+
+body {
+    
+    background-image:linear-gradient(rgba(0,0,0,0.60),rgba(0, 0, 0, 0.60)),url("../images/wallpaperflare.com_wallpaper.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    
+}
+
+#quizForm {
+    color: aliceblue;
+    align-items: center;
+    position: relative;
+    left: 20%;
+    right: 20%;
+    top: 220px;
+    width: fit-content;
+}
+
+fieldset {
+    padding: 20px;
+    font-size: 20px;
+    
+}
+
+.heading {
+    position: absolute;
+    top: 15%;
+    left: 670px;
+    width: fit-content;
+    font-size: 30px;
+    color: #F96C18;
+}
+
+.time {
+    text-align: center;
+}
+
+.submitButton {
+    text-align: center;
+    position: relative;
+    top: 20px;
+    left: 380px;
+    font-size: 20px;
+    height:50px;
+    width:100px;
+    border-radius: 30px;
+    border:none;
+    background-color: white;
+    color: black;
+}
+
+.submitButton:hover {
+  color: white;
+  background-color: orangered;
+  border-color: #1b1f2326;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.submitButton:focus{
+    color: white;
+    background-color: yellow;
+}
+
+#remaining {
+    position: relative;
+    left: 40px;
+}
+
+
+#colorChange {
+    position: relative;
+    top: -40px;
+    left: 40px;
+}
+
+#endDisplay {
+    position: relative;
+    top: 300px;
+    left: 600px;
+    font-size: 20px;
+    color: white;
+    width: fit-content;
+}
+
+.topBtn {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 99;
+    font-size: 20px;
+    border: none;
+    outline: 1px solid white;
+    background-color: #0D0D0D;
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+.topBtn i  {
+    font-size: 30px;
+}
+.topBtn:hover{
+    background-color: #ff5e00;
+    outline: 1px solid #0D0D0D;
+}
+
+/* Footer area styling */
+
+.footer-area{
+    position: relative;;
+    margin-top: 300px;
+    left: 0;
+    top:200px;
+    bottom: 0;
+    width: 100%;
+    height: 15%;
+    background-color: rgba(0, 0, 0, 0.40);
+    text-align: center;
+}
+
+.border-bar{
+    
+    position: relative;
+    width:100%;
+    height: 2px;
+    background-color: #F96C18;
+    opacity: 0.2;
+}
+
+
+/* social icons */
+.social-icons {
+    margin-top: 15px;
+}
+.social-icons a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+ 
+}
+
+.social-icons li{
+    display: inline;
+}
+
+.social-icons i{
+    color: #ffffff;
+    padding :0 5px;
+    opacity: 0.7;
+}
+
+.social-icons i:hover{
+    opacity: 0.9;
+}
+
+.brand {
+    color:#F96C18;
+    font-size: 20px;
+    font-weight: normal;
+    opacity: 0.9;
+}
+
+.editor{
+    color: #a9a9a9;
+}
+
+.editor a{
+    text-decoration: none;
+    color: #a9a9a9;
+    font-size: 15px;
+    opacity: 0.7;
+}
+.editor a:hover{
+    opacity: 0.8;
+}
+
+.logo {
+    position: absolute;
+    left: -10px;
+    top: -90px;
+}
+
+

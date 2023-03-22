@@ -1,0 +1,139 @@
+*{
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images2/screen.jpg);
+}
+.main-area{
+    /* background-color: black; */
+    
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height:60%;
+    margin-bottom: 100px;
+    margin-bottom: 50px;
+    background:rgba(0, 0, 0, 0.5);
+    border-radius:10px;
+    padding:20px;
+   
+}
+
+
+
+.details p:first-child{
+   
+    color: #FF5F00;
+    font-size:30px;
+    font-weight: lighter;
+    letter-spacing:2px;
+    
+    
+}
+
+.details p:last-child{
+    color: white;
+    font-size:30px;
+
+    /* margin-bottom: 20px; */
+}
+
+.task-titles  {
+    font-size: 20px;
+    font-weight: lighter;
+    color: white;
+}
+
+
+#task{
+    font-size:17.6px;
+    
+}
+
+.task-list{
+    color: white;
+}
+.task-list > p{
+    font-size:17.6px;
+    margin-bottom: 5px;
+}
+
+.task-list  a{
+    width: fit-content;
+    text-decoration: none;
+    color: white;
+ 
+}
+.task-list  a:hover{
+ 
+    color:#ffffff;
+    text-decoration:underline;
+}
+
+.task-list li{
+    
+    font-size:18px;
+    margin-left: 50px;
+     
+}
+.my-photo  {
+    position: absolute;
+    left: 55%;
+    top:15%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+    padding: 20px;
+}
+
+.my-photo  img{
+   
+    width:40%;
+    border-radius:20px;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+
+.my-photo img:hover{
+    border-radius: 20px;
+    -webkit-transform: scale(1.01);
+	transform: scale(1.01);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact area */
+
+hr{
+    margin-left: 60px;
+    margin-top: 20px;
+    border:none;
+    border-top: 6px dotted white;
+    opacity: 0.3;
+    border-right: 0;
+    width:60px;
+    margin-bottom: 10px;
+}
+.contact-area{
+    position: absolute;
+  
+}
+.contact-area ul{
+    display:flex;
+    margin-bottom: 10px;
+}
+.contact-area  li{
+    list-style-type: none;
+    font-size:18px;
+    margin: 3px;
+    margin-left: 30px;
+}
+.contact-area a{
+    text-decoration: none;
+    color: white;
+    opacity: 0.7;
+}
+.contact-area a:hover{
+    opacity: 0.9;
+}

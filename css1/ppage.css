@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.ss{
+    height: 100vh;
+}
+
+.vb{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+
+#logo{
+    position: relative;
+    width: 340px;
+    height: auto;
+}
+
+.lo{
+    text-align: center;
+}
+
+#ball{
+    width: 230px;
+    height: auto;
+}
+.names{
+    color: #ffffffe7;
+    text-align: center;
+    font-size: x-large;
+    line-height: 50px;
+}
+#gn{
+    color: #ff5f00;
+    font-size: 60px;
+}
+.showcase video{
+    position: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

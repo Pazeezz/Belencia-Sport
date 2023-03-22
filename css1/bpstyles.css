@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+/* navbar styling */
+.navbar{
+    position: relative;
+    z-index: 999;
+}
+.navbar ul{
+    display: flex;
+    padding-top: 20px;
+    float: right;
+}
+.navbar ul li{
+    list-style: none;
+    position: relative;
+    display:inline-block;
+    margin: 0 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+.navbar ul li a:hover{
+    opacity: 1;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.active{
+    color: #FF5F00;
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 2px;
+    width: 0;
+    background: #F96C18;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.logo {
+    position: absolute;
+    left: -10px;
+    top: -90px;
+    z-index:999;
+}
+
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.60),rgba(0, 0, 0, 0.60)),url(../images/b2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.header{
+    color: #FFFF;
+    font-size: x-large;
+    width: 98vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row1{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: auto;
+}
+.row11{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+.item{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.product-img{
+    width: 20%; 
+    height: 20%;
+}
+.sp1{
+    padding: 40px 80px;
+}
+#products .pro-box{
+    width: 300px;
+    height: 475px;
+    text-align: center;
+    padding: 20px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.3);
+    border: 2px solid #cce7d0;
+    border-radius: 20px;
+    margin: 15px 0;
+}
+#products .pro-box:hover{
+    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+}
+#products{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#products .pro-box h2{
+    color: white;
+}
+#products .pro-box .price {
+    font-size: x-large;
+    color:#FF5F00
+}
+#products .pro{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px;
+    border: 1px solid #cce7d0;
+}
+#products .pro-box img{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+}
+#products .pro-box h3{
+    color: #ffc574;   
+}
+#products .pro-box .quantity{
+    background-color: #fecb84;
+    border-color: #fecb84;
+    width: 40px;
+    border-radius: 5px;   
+}
+#products .pro-box .quantity:hover{
+    background-color: #ff833b;
+    cursor: pointer;
+}
+
+#products .pro-box .b{
+    font-size: x-large;
+    color: #000000;
+    background-color: #F37432;
+    border-color: #F37432;
+    border-radius: 10px;
+    width: 230px;
+    height: fit-content;
+} 
+
+#products .pro-box .b:hover{
+    background-color: #FF5F00;
+    cursor: pointer;
+}
+
+.ffff {
+    font-size: 28px;
+    color: #ff5100 ;
+    border: 3px solid #e2ffe681;
+    border-radius:50px;
+    text-align: center;
+
+    background-image:linear-gradient(rgba(0,0,0,0.60),rgba(0, 0, 0, 0.60)),url(../images/b1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#yd{
+    color: rgba(255, 255, 255, 0.849);
+    font-size: 42px;
+}
+#fname{
+    color: white;
+    border-radius: 5px;
+    border-color: #ffffff6e;
+    background-color: #00000070;
+    width: 250px;
+    height: 30px;  
+}
+#email{
+    color: white;
+    border-radius: 5px;
+    border-color: #ffffff6e;
+    background-color: #00000070;
+    width: 296px;
+    height: 30px;
+}
+#cname{
+    color: white;
+    border-radius: 5px;
+    border-color: #ffffff6e;
+    background-color: #00000070;
+    width: 219px;
+    height: 30px;
+}
+#cnumber{
+    color: white;
+    border-radius: 5px;
+    border-color: #ffffff6e;
+    background-color: #00000070;
+    width: 190px;
+    height: 30px;
+}
+#pn{
+    color: white;
+    border-radius: 5px;
+    border-color: #ffffff6e;
+    background-color: #00000070;
+    width: 175px;
+    height: 30px;
+}
+#dadd{
+    color: white;
+    border-radius: 5px;
+    border-color: #ffffff6e;
+    background-color: #00000070;
+    width: 277px;
+    height: 30px;
+}
+#rd{
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: rgb(0, 34, 64);
+    border-color: rgb(18, 0, 90);
+    width: 100px;
+    height: 30px;
+
+}
+#rd:hover{
+    background-color: rgb(126, 193, 255);
+    border: 3px solid rgb(18, 0, 90);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+#bs{
+    font-size: 50px;
+    color: #000000;
+    background-color: #FF5F00;
+    border-color: #F37432;
+    border-radius: 2px;
+    width: 230px;
+    height: fit-content;
+
+}
+#bs:hover{
+    background-color: #ff0000;
+    border-color: #f33232;
+    cursor: pointer;
+}
+
+/* Footer area styling */
+
+.footer-area{
+    position: relative;;
+    /* margin-top: 300px; */
+    left: 0;
+    /* top:200px; */
+    bottom: 0;
+    width: 100%;
+    height: 15%;
+    background-color: #070707;
+    text-align: center;
+}
+
+.border-bar{
+    
+    position: relative;
+    width: auto;
+    height: 3px;
+    background-color: #F96C18;
+    opacity: 0.2;
+}
+
+
+/* social icons */
+.social-icons {
+    margin-top: 15px;
+}
+.social-icons a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+ 
+}
+
+.social-icons li{
+    display: inline;
+}
+
+.social-icons i{
+    color: #ffffff;
+    padding :0 5px;
+    opacity: 0.7;
+}
+
+.social-icons i:hover{
+    opacity: 0.9;
+}
+
+.brand {
+    color:#F96C18;
+    font-size: 20px;
+    font-weight: normal;
+    opacity: 0.9;
+}
+
+.editor{
+    color: #a9a9a9;
+}
+
+.editor a{
+    text-decoration: none;
+    color: #a9a9a9;
+    font-size: 15px;
+    opacity: 0.7;
+}
+.editor a:hover{
+    opacity: 0.8;
+}

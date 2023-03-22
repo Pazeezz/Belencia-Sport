@@ -1,0 +1,271 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "poppins";
+}
+
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0, 0, 0, 0.75)),url(../images/web-development.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.nav-area ul{
+    display: flex;
+    padding-top: 20px;
+    float: right;
+}
+.nav-area ul li{
+    list-style: none;
+    position: relative;
+    display:inline-block;
+    margin: 0 20px;
+}
+.nav-area ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+.nav-area ul li a:hover{
+    opacity: 1;
+}
+
+.nav-area ul li::after{
+    content: '';
+    height: 2px;
+    width: 0;
+    background: #F96C18;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+.nav-area ul li:hover::after{
+    width: 100%;
+}
+
+.logo {
+    position: absolute;
+    left: -10px;
+    top: -90px;
+    z-index:999;
+}
+
+/* Styling main area */
+
+.main-area{
+    
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height:60%;
+    margin-bottom: 100px;
+    margin-bottom: 50px;
+    background:rgba(0, 0, 0, 0.5);
+    border-radius:10px;
+    padding:20px;
+   
+}
+
+
+
+.details p:first-child{
+   
+    color: #FF5F00;
+    font-size:30px;
+    font-weight: lighter;
+    letter-spacing:2px;
+    
+    
+}
+
+.details p:last-child{
+    color: white;
+    font-size:30px;
+
+}
+
+.task-titles  {
+    font-size: 20px;
+    font-weight: lighter;
+    color: white;
+}
+
+
+#task{
+    font-size:17.6px;
+    
+}
+
+.task-list{
+    color: white;
+}
+.task-list > p{
+    font-size:17.6px;
+    margin-bottom: 5px;
+}
+
+.task-list  a{
+    width: fit-content;
+    text-decoration: none;
+    color: white;
+ 
+}
+.task-list  a:hover{
+ 
+    color:#ffffff;
+    text-decoration:underline;
+}
+
+.task-list li{
+    
+    font-size:18px;
+    margin-left: 50px;
+     
+}
+.my-photo  {
+    position: absolute;
+    left: 55%;
+    top:15%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+    padding: 20px;
+}
+
+.my-photo  img{
+   
+    width:40%;
+    border-radius:20px;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+
+.my-photo img:hover{
+    border-radius: 20px;
+    -webkit-transform: scale(1.01);
+	transform: scale(1.01);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact area */
+
+hr{
+    margin-left: 60px;
+    margin-top: 20px;
+    border:none;
+    border-top: 6px dotted white;
+    opacity: 0.3;
+    border-right: 0;
+    width:60px;
+    margin-bottom: 10px;
+}
+.contact-area{
+    position: absolute;
+  
+}
+.contact-area ul{
+    display:flex;
+    margin-bottom: 10px;
+}
+.contact-area  li{
+    list-style-type: none;
+    font-size:18px;
+    margin: 3px;
+    margin-left: 30px;
+}
+.contact-area a{
+    text-decoration: none;
+    color: white;
+    opacity: 0.7;
+}
+.contact-area a:hover{
+    opacity: 0.9;
+}
+
+
+/* Footer area styling */
+
+.footer-area{
+    position: absolute;
+    margin-top: 300px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.border-bar{
+    
+    position: relative;
+    width:100%;
+    height: 2px;
+    background-color: #F96C18;
+    opacity: 0.2;
+}
+
+
+/* social icons */
+.social-icons {
+    margin-top: 15px;
+    display: flex;
+    margin: 0 auto;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+.social-icons a{
+    text-align: center;
+    font-size: 30px;
+ 
+}
+.social-icons i{
+    color: #ffffff;
+}
+
+.social-icons li{
+    padding-left: 6px;
+}
+.social-icons i{
+    color: #ffffff;
+    padding :0 5px;
+    opacity: 0.7;
+}
+
+.social-icons i:hover{
+    opacity: 0.9;
+}
+
+.brand {
+    color:#F96C18;
+    font-size: 20px;
+    font-weight: normal;
+    opacity: 0.4;
+}
+
+.editor{
+    color: #a9a9a9;
+
+}
+
+.editor a{
+    text-decoration: none;
+    color: #a9a9a9;
+    font-size: 15px;
+    opacity: 0.7;
+}
+.editor a:hover{
+    opacity: 0.8;
+}

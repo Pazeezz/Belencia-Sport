@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "poppins";
+    
+    
+}
+
+body {
+    
+    background-image:linear-gradient(rgba(0,0,0,0.60),rgba(0, 0, 0, 0.60)),url("../images/WallpaperDog-17206943.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+
+    
+}
+
+/* navbar styling */
+
+.nav-area ul{
+    display: flex;
+    padding-top: 20px;
+    float: right;
+}
+.nav-area ul li{
+    list-style: none;
+    position: relative;
+    display:inline-block;
+    margin: 0 20px;
+}
+.nav-area ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+.nav-area ul li a:hover{
+    opacity: 1;
+}
+
+.nav-area ul li::after{
+    content: '';
+    height: 2px;
+    width: 0;
+    background: #F96C18;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+.nav-area ul li:hover::after{
+    width: 100%;
+}
+
+#startButton {
+    position: relative;
+    top: 220px;
+    left: 735px;
+    width: fit-content;
+    
+}
+
+button {
+  font-size: 20px;
+  height:45px;
+  width:75px;
+  border-radius: 30px;
+  border:none;
+  background-color: white;
+  color: black;
+}
+
+button:hover {
+  color: white;
+  background-color: orangered;
+  border-color: #1b1f2326;
+  box-shadow: rgba(27, 31, 35, 0.1) 0px 1px 0px 0px, rgba(255, 255, 255, 0.03) 0px 1px 0px 0px inset;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+h1 {
+  color:rgb(243, 80, 21);
+  font-size: 50px;
+  position: relative;
+  top: 150px;
+  left: 37%;
+  width: fit-content;
+}
+
+#welcome {
+  color: white;
+  font-size: 25px;
+  position: relative;
+  top: 180px;
+  left: 400px;
+  text-align: center;
+  width: fit-content;
+  
+  
+}
+
+#wish {
+  font-size: 30px;
+}
+
+.logo {
+  position: absolute;
+  left: -10px;
+  top: -90px;
+}
+
+
+
+

@@ -1,0 +1,127 @@
+.sub-header{ 
+    min-height:100vh;
+	width:100%;
+	background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images2/query.jfif);
+	background-position:center;
+	background-size:cover;
+	position:relative;
+   
+}
+
+
+.register{
+    color: #ff5f00;
+    width: 80%;
+    margin: auto; 
+}
+.register h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size:35px;
+}
+
+.register-col{
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+
+.register-col div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.register-col div .fa{
+    font-size: 28px;
+    color: #ff5f00;
+    margin: 10px;
+    margin-right: 30px;
+}
+.register-col div p{
+    padding: 0;
+}
+
+.register-col div h5{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #ff5f00;
+    font-weight: 400;
+}
+
+.register-col input, .register-col textarea{
+   width: 100%;
+   padding: 15px;
+   margin-bottom: 17px;
+   outline: none;
+   border: 1px solid #ccc;
+}
+
+
+
+#view{
+    width: 10%;
+    background-color: grey;
+    columns: #fff;
+    padding: 10px 30px;
+    border-radius:6px;
+}
+
+#view :hover{
+    border:1px solid #ff5f00;
+	background:#ff5f00;
+	transition:1s;
+}
+
+.result{
+    background-image:linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url(../images2/result.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    justify-content: center;  
+}
+
+#reset{
+    width: 10%;
+    background-color: grey;
+    columns: #fff;
+    padding: 10px 30px;
+    border-radius:6px;
+}
+
+#reset:hover{
+    border:1px solid #ff5f00;
+	background:#ff5f00;
+	transition:1s;
+}
+
+#submit{
+    width: 10%;
+    background-color: grey;
+    columns: #fff;
+    padding: 10px 30px;
+    border-radius:6px;
+}
+
+#submit:hover{
+    border:1px solid #ff5f00;
+	background:#ff5f00;
+	transition:1s;
+}
+
+.extra{
+    width: 10%;
+    background-color: grey;
+    columns: #fff;
+    padding: 10px 30px;
+}
+
+.extra:hover{
+    border:1px solid #ff5f00;
+	background:#ff5f00;
+	transition:1s;
+}
+#result{
+	background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images2/images.jpg);
+}
